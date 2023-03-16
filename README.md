@@ -45,13 +45,13 @@ The AXI Ethernet Subsystem IP in AC701 comprises of TX and RX ports. The TX port
 
 
 
-## requirement
+## Requirement
 
 The board and BSP used for this project is Xilinx's AC701
 
 software includes Vivado 2022.2, Petalinux 2022.2 and Vitis 2022.2. 
 
-## simulation
+## Simulation
 
 I feeding the module with real TCP packet data and simulating the tready and tvalid handshake process, and the module was functioning correctly.
 
@@ -69,7 +69,7 @@ The boot.mcs file which generated in Petalinux is provided, file can be programm
 
 *Before executing "iperf3" command, the IP address of the board must be setup by using the "ifconfig" command. In this case, the IP address has been set to 192.168.1.10.*
 
-## verification
+## Verification
 
 While using iperf to transmit packets, I verify the consistency of the data by opening both ILA and Wireshark. By comparing the wireshark data with the values in the registers, successful of the module's functionality can be confirmed.
 
