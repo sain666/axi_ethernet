@@ -39,7 +39,7 @@ For example,the TCP packets are contain a large amount of information when trans
 * is_tcp
 * data(data in packet)
 
-The AXI Ethernet Subsystem IP in AC701 comprises of TX and RX ports. The TX port is responsible for transmitting data while the RX port is responsible for receiving data. By connecting the data, tready, and tvalid signals to module, the data will only be considered valid if both tready and tvalid are asserted simultaneously.
+The AXI Ethernet Subsystem IP in AC701 comprises of TX and RX ports. The TX port is responsible for transmitting data while the RX port is responsible for receiving data. By connecting the RX data, tready, and tvalid signals to module, the data will only be considered valid if both tready and tvalid are asserted simultaneously.
 
 <img src="pic\module.PNG" style="zoom:60%" />
 
