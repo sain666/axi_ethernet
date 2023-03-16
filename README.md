@@ -1,6 +1,6 @@
 # Abstract
 
-This project is a decode state machine module writing in Verilog. The module is designed to parse various data in TCP/UDP packets when transmitted over Ethernet.
+This project is a decode state machine module writing in Verilog. The module is designed to parse various data in TCP/UDP packets when transmitted over ethernet.
 
 For example,the TCP packets are contain a large amount of information when transmitted, such as MAC addresses, IP addresses, checksums, sequence numbers and acknowledgement numbers. These information will be converted into binary data for transmission. However,we cannot understand the meaning of these amount of binary digits. Therefore, this module implement a state machine to automatically separate these binary digits in every packet and store into registers. By observing the digits stored in the registers, the data and their meanings can be clearly seen.
 
