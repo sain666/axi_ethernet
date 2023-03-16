@@ -87,7 +87,7 @@ _In this case, the ILA trigger has been configuring the 'is_tcp/is_udp' port as 
 
 <img src="pic\iperf_wireshark_tcp.PNG" alt="iperf_wireshark_tcp" style="zoom:55%;" />
 
- ## reference
+ ## Reference
 
 - [pg138-axi-ethernet-en-us-7.2](https://docs.xilinx.com/v/u/7.0-English/pg138-axi-ethernet)
 
